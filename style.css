@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+#nav1 {
+  width: 100%;
+  background-color: yellowgreen;
+}
+#nav1 h4 {
+  color: #fff;
+  padding: 20px 150px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+#nav {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+#nav img {
+  margin: 15px;
+}
+#navmain {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
+}
+#navicon {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 53px;
+  margin-left: 150px;
+}
+#navicon i {
+  font-size: 24px;
+}
+#main2 {
+  width: 100%;
+  height: 82.5%;
+  position: relative;
+}
+#main2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main2 #txt {
+  position: absolute;
+  top: 26%;
+  left: 3%;
+}
+#main2 #txt h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: rgb(20, 201, 192);
+}
+#main2 #txt h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  padding-bottom: 30px;
+  color: rgb(255, 149, 10);
+}
+#main2 #txt button {
+  height: 55px;
+  width: 190px;
+  font-size: 20px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+}
+
+#main3 {
+  width: 100%;
+  height: 78%;
+}
+#main3 img {
+  width: 100%;
+  height: 10%;
+}
+#text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 30px;
+}
+#main3 #text h2 {
+  font-size: 43.5px;
+  color: goldenrod;
+  width: 800px;
+  text-align: center;
+}
+#text img {
+  height: 220px;
+  width: 220px;
+}
+#main3 p {
+  font-size: 27.5px;
+  width: 80%;
+  padding-left: 300px;
+  margin-top: 70px;
+  text-align: center;
+  color: rgb(148, 147, 147);
+}
+#main4 {
+  height: 92%;
+  width: 100%;
+}
+#main4 h5 {
+  position: relative;
+  top: 10px;
+  left: 48%;
+  font-size: 19px;
+  width: 100px;
+  color: rgb(255, 201, 83);
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+#main4 h1 {
+  position: relative;
+  top: 5px;
+  left: 44%;
+  font-size: 28pt;
+  width: 100px;
+  color: rgb(58, 19, 77);
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+#cate {
+  height: 83%;
+  width: 100%;
+  margin-top: 40px;
+  position: relative;
+}
+#cate #txt {
+  position: absolute;
+  top: 26%;
+  right: 3%;
+
+  text-align: right;
+}
+#cate #txt h1 {
+  width: 430px;
+  font-size: 40px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: silver;
+  position: relative;
+  left: 0;
+}
+#cate #txt h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  padding-bottom: 30px;
+  color: goldenrod;
+}
+#cate #txt button {
+  height: 55px;
+  width: 190px;
+  font-size: 20px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+}
+#cate img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+#main5 {
+  width: 100%;
+  height: 120%;
+}
+#main5 h4 {
+  padding-top: 50px;
+  padding-left: 60px;
+  font-size: 19px;
+  width: 100px;
+  color: rgb(255, 201, 83);
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+#main5 h1 {
+  padding-left: 60px;
+  font-size: 28pt;
+  width: 100px;
+  color: rgb(58, 19, 77);
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+#product {
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.meetai {
+  height: 30%;
+  width: 22%;
+}
+
+#product .meetai img {
+  height: 95%;
+  width: 95%;
+  margin-left: 20px;
+}
+#last {
+  margin-top: 20px;
+}
+#main5 #product .meetai h5 {
+  padding-left: 100px;
+  font-size: 19px;
+  width: 300px;
+  color: rgb(255, 201, 83);
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+#main5 .meetai h1 {
+  padding-left: 40px;
+  font-size: 20px;
+  width: 345px;
+  color: rgb(10, 4, 14);
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+.meetai span {
+  color: red;
+}
+#main5 p {
+  font-size: 45px;
+  width: 80%;
+  padding-left: 330px;
+  margin-top: 150px;
+  text-align: center;
+  color: goldenrod;
+}
+#main6 h3 {
+  padding-left: 120px;
+  padding-top: 40px;
+  color: rgb(175, 133, 25);
+  font-size: 25px;
+  font-weight: 300;
+}
+#main6 h1 {
+  padding: 5px 120px;
+  font-size: 40px;
+  color: rgb(54, 31, 85);
+}
+#main6 p {
+  font-size: 27.5px;
+  width: 50%;
+  padding-left: 120px;
+  text-align: left;
+  color: rgb(32, 32, 32);
+}
+#main6 button {
+  margin: 30px 120px;
+  height: 40px;
+  width: 160px;
+  font-size: 20px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+}
+#main6 button:hover,
+#cate #txt button:hover,
+#main2 #txt button:hover {
+  background-color: #fff;
+  color: yellowgreen;
+  cursor: pointer;
+  border: 2px solid yellowgreen;
+}

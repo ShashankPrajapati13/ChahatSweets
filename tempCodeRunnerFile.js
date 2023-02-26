@@ -1,0 +1,1 @@
+setAttribute("src", "gajak.jpg")
